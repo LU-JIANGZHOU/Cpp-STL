@@ -1,0 +1,54 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+#cmake generated files
+build/
+bin/
+#CMakeC*
+#Makefile*
+#*.cmake
+#*.make
+#compile*.json
+#query.json
+#codemodel*.json
+#ndex*.json
+#CMake*.log
+#progress.marks
+#TargetDirectories.txt
+#CMakeDeter*.bin
+#CMakeCC*.c
+#CMakeCXX*.cpp
+#*.includecache
+#depend.internal
+#cmake.check_cache
+#link.txt
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
