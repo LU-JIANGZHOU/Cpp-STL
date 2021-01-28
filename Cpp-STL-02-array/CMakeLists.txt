@@ -3,6 +3,6 @@ project(CppSTL02)
 
 SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 include_directories(${PROJECT_SOURCE_DIR}/include)
-add_executable(Cpp-STL-02-bind main)
+add_executable(Cpp-STL-02-array main)
 
 

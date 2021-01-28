@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_subdirectory(Cpp-STL-01-template)
-#add_subdirectory(Cpp-STL-02-)
+add_subdirectory(Cpp-STL-02-array)
 #add_subdirectory(Cpp-STL-03-)
 #add_subdirectory(Cpp-STL-04-)
 #add_subdirectory(Cpp-STL-05-)
