@@ -1,0 +1,8 @@
+size(), capacity(), max_size()
+=, [], at()
+front(), back()
+shrink_to_fit()
+empty()
+begin(), end(), rbegin(), rend()
+insert(), erase()
+push_back(), pop_back()
