@@ -3,5 +3,5 @@ project(CppSTL05)
 
 SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 include_directories(${PROJECT_SOURCE_DIR}/include)
-add_executable(Cpp-STL-05- main)
+add_executable(Cpp-STL-05-forwardlist main)
 
