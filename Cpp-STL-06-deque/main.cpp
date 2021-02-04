@@ -8,7 +8,7 @@ int main()
 
   deque<int> d = {7, 5, 16, 8};
   d.push_back(5);
-  d.push_back(6); 
+  d.push_back(6);
   for (int i = 0; i < d.size(); i++)
     cout << d[i] << " "; //7,5,16,8.5.6
   cout << endl;
