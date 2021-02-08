@@ -15,7 +15,7 @@ public:
 
 int main()
 {
-    cout << "07 demonstrate set in c++ STL" << endl;
+    cout << "08 demonstrate multiset in c++ STL" << endl;
 
     set<int> s = {1, 2, 3, 4, 5, 6, 5, 4, 3, 2, 1};
     cout << "the element of the set is: "

@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-  cout << "10 demonstrate multiple map in c++ STL" << endl;
+  cout << "10 demonstrate multimap in c++ STL" << endl;
   // initialize
   std::multimap<int, std::string, std::greater<int>> mmap{{1, "abc"}, {2, "def"}, {3, "ghi"}, {1, "jkl"}, {5, "opq"}};
 
