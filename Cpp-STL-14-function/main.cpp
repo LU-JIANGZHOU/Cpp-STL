@@ -18,6 +18,11 @@ int addTwo(int x)
   return x + 2;
 }
 
+int myMinus(int x, int y)
+{
+  cout <<"the differnce of the two number is: " << x - y << '\n';
+  return x - y;
+}
 struct PrintNum
 {
   void operator()(int i) const
@@ -29,18 +34,21 @@ int main()
 {
   cout << "14 demonstrate function in c++ STL" << endl;
   //1) free function with none parameter and no return
-  std::function fPrint = printNone;
+  function fPrint = printNone;
   fPrint();
 
   //2) free function with one parameter and no return
-  std::function<void(int)> fPrintNum = printNum;
+  function<void(int)> fPrintNum = printNum;
   fPrintNum(5);
 
   //3) free function with parameter and return
-  std::function<int(int)> fAddTwo = addTwo;
+  function<int(int)> fAddTwo = addTwo;
   fAddTwo(6);
 
   //4) create a new function using bind
+  function<int(int)> fMinusTwo = bind(myMinus, std::placeholders::_1, 2);
+  fMinusTwo(5); //3
+
   //5)create a new function using lambda
   //6) store a call to a member function
 
