@@ -10,14 +10,34 @@ int main()
 
   vector v1 = {1, 2, 3, 4, 5, 6};
   vector<int>::iterator it;
-  vector<int>::iterator iBegin = v1.begin();
-  vector<int>::iterator iEnd = v1.end();
 
-  for (it = iBegin; it < iEnd; it++)
+  // iterate forward
+  for (it = v1.begin(); it != v1.end(); ++it)
   {
-    cout << *it << endl;
+    cout << *it << " ";
   }
   cout << endl;
+
+  // iterate backward
+  for (it = v1.end(); it != v1.begin();)
+  {
+    cout << *--it << " ";
+  }
+  cout << endl;
+
+  // range-based for loop
+  for (int i : v1)
+  {
+    cout << i << " ";
+  }
+  cout << endl;
+
+  it = v1.begin() + 5;
+  cout << "element begin + 5" << *it << endl;
+  cout << "element [5]" << v1[5] << endl;
+
+  it = v1.end() - 3;
+  cout << "element end - 3" << *it << endl;
 
   set<int> s1 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
   set<int>::iterator it1; // iterator object
